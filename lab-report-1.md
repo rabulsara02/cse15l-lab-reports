@@ -59,6 +59,9 @@ javac Hello.java
 java Hello messages/en-us.txt
 [user@sahara ~/lecture1]$ cat messages/
 cat: messages/: Is a directory
+[user@sahara ~/lecture1]$ cat
+exit
+exit
 ```
 1. `cat`
 Now, our working directory was /home/lecture1 when I ran this command.
