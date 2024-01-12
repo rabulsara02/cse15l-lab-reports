@@ -67,13 +67,14 @@ exit
 Now, our working directory was /home/lecture1 when I ran this command.
 However, my output just stopped me from going any further and anything I typed did not seem to work which was interesting.
 I think this **is** an error because `cat` needs a prompt and there was none, so maybe it crashed?
+*apparently ctrl+c interrupts the terminal and gets you back in the working directory:))*
 
-2. `cat messages`
+3. `cat messages`
 The current working directory is `/home/lecture1` when this command was run.
 I got this out which basically said that `messages` was a directory. I don't think that `cat` can output directories, only files.
 This output is not an error.
 
-3. `cat README`
+4. `cat README`
 The current directory when the command was run `/home/lecture1`.
 The command stated the contents of the README file because thats how the `cat` commmand should be used.
 This output is not an error.
