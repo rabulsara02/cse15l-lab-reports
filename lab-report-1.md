@@ -1,6 +1,6 @@
 # **Lab Report 1**
 
-## cd Test Case findings:
+## `cd` Test Case findings:
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$ cd lecture1
@@ -21,7 +21,7 @@ The working directory is still `/home/lecture1`.
 We got this output because `Hello.java` is a java file, and the cd command can only work between directories, not files.
 I don't believe this output is an error because it makes sense as to why it didn't work.
 
-## ls Test Case findings:
+## `ls` Test Case findings:
 ```
 [user@sahara ~]$ ls
 lecture1
@@ -49,7 +49,7 @@ The working directory still has not changed and remains `/home`.
 We get this output because we are checking to see if there are any files/directories past Hello.java, which there are none.
 This output is not an error.
 
-## cat Test Case findings:
+## `cat` Test Case findings:
 ```
 [user@sahara ~]$ cd lecture1/
 [user@sahara ~/lecture1]$ cat README 
