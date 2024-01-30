@@ -9,7 +9,7 @@ bash: cd: Hello.java: Not a directory
 ```
 1. `cd` The working directory when the first command was run was just `/home`.
 And the reason we got an empty output for cd was because we did not specify a directory to go to.
-The output is not an error for the empty case.
+The output is not an error for the empty case. When we use cd without any inputs, it basically "changes directory" to your current working directory, or in other words, doesn't actually "change" anything.
 
 2. `cd 1ecture1`
 The working directory when we do `cd lecture1` changes our working directory to `/home/lecture1`.
@@ -19,7 +19,7 @@ The output is not an error
 3. `cd Hello.java`
 The working directory is still `/home/lecture1`.
 We got this output because `Hello.java` is a java file, and the cd command can only work between directories, not files.
-I don't believe this output is an error because it makes sense as to why it didn't work.
+This output *is* an error because the command did not do what it is intended to do. Which makes sense because a .java file is not a directory you can change in to.
 
 ## `ls` Test Case findings:
 ```
@@ -67,14 +67,18 @@ exit
 Now, our working directory was /home/lecture1 when I ran this command.
 However, my output just stopped me from going any further and anything I typed did not seem to work which was interesting.
 I think this **is** an error because `cat` needs a prompt and there was none, so maybe it crashed?
-*apparently ctrl+c interrupts the terminal and gets you back in the working directory:))*
+*apparently ctrl+c interrupts the terminal and gets you back in the working directory:))* <br>
+**EDIT**
+Doing further investigation, this is not an error, rather the command is still running.
 
-3. `cat messages`
+2. `cat messages`
 The current working directory is `/home/lecture1` when this command was run.
 I got this out which basically said that `messages` was a directory. I don't think that `cat` can output directories, only files.
-This output is not an error.
+This output is not an error. <br>
+**EDIT**
+This output is actually an error because cat *can* be used on directories, however it requires an addtional argument for files ending in a specific file type, or all file types.
 
-4. `cat README`
+3. `cat README`
 The current directory when the command was run `/home/lecture1`.
 The command stated the contents of the README file because thats how the `cat` commmand should be used.
 This output is not an error.
