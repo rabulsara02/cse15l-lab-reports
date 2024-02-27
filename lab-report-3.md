@@ -39,6 +39,8 @@ The bug, as the before-and-after code change required to fix it (as two code blo
   }
 ```
 
+<p>The bug above  was that the array never actually got reversed in place, instead the it started at the end and then as it got the beginning, the array just became mirrored. </p>
+
 ```
 //NEW
 static void reverseInPlace(int[] arr) {
@@ -54,22 +56,27 @@ static void reverseInPlace(int[] arr) {
 ## Part 2
 <p>I chose the grep command for this part.</p>
 
-<p>The first option I found that can be used with grep is the grep **-i** command.</p>
+<p>The first option I found that can be used with grep is the grep "-i" command. </p>
 <p>What this command does is it prints lines with the same word(s) after -i</p>
-<p>For example, let their be a file ucsd.txt that contains the following<br>
-UCSD Rocks <br>
-UCSD Revelle Rocks <br>
-UCSD 64 Rocks <br>
+<p>For example, let their be a file ucsd.txt that contains the following<br> </p>
+
+```
+UCSD Rocks 
+UCSD Revelle Rocks 
+UCSD 64 Rocks 
 UCSD Parking Sucks
-</p>
+```
+
 <p>Now lets use grep -i<br>
 </p>
 
+<br>
+
 ```
-grep -i rocks ucsd.txt <br>
-UCSD Rocks <br>
-UCSD Revelle Rocks <br>
-UCSD 64 Rocks <br>
+grep -i rocks ucsd.txt 
+UCSD Rocks 
+UCSD Revelle Rocks 
+UCSD 64 Rocks 
 ```
 
 <p> Let's try another </p>
@@ -80,8 +87,8 @@ UCSD Parking Sucks
 ```
 
 <p>The second option I found that can be used with grep is the grep **-c** command.</p>
-<p>What this command does is it prints the number of lines that contain the criteria after -c</p>
-<p>Using the same example file ucsd.txt, let's try out grep **-c**<br>
+<p>What this command does is it prints the number of lines that contain the criteria after "-c" </p>
+<p>Using the same example file ucsd.txt, let's try out "grep -c" <br>
 </p>
 
 ```
@@ -103,18 +110,18 @@ grep -c sucks ucsd.txt
 
 ```
 grep -V Rocks ucsd.txt
-UCSD Rocks <br>
-UCSD Revelle Rocks <br>
-UCSD 64 Rocks <br>
+UCSD Rocks
+UCSD Revelle Rocks
+UCSD 64 Rocks
 ```
-<p> The **-v** command also cares about capitilazation, so it is best to use it in conjuction with the -i command to make things easier.<br>
+<p> The "-v" command also cares about capitilazation, so it is best to use it in conjuction with the -i command to make things easier.<br>
 For example</p>
 
 ```
-grep -v sucks ucsd.txt <br>
-UCSD Rocks <br>
-UCSD Revelle Rocks <br>
-UCSD 64 Rocks <br>
+grep -v sucks ucsd.txt
+UCSD Rocks
+UCSD Revelle Rocks
+UCSD 64 Rocks 
 UCSD Parking Sucks
 ```
 <p>We get everything because we didn't use the -i in conjunction</p>
@@ -126,17 +133,17 @@ UCSD Parking Sucks
 </p>
 
 ```
-grep -A 2 Revelle ucsd.txt <br>
-UCSD Revelle Rocks <br>
-UCSD 64 Rocks <br>
+grep -A 2 Revelle ucsd.txt 
+UCSD Revelle Rocks 
+UCSD 64 Rocks 
 UCSD Parking Sucks
 ```
 <p> Alternatively if we only want one line after, we could say</p>
 
 ```
-grep -A 1 Revelle ucsd.txt <br>
-UCSD Revelle Rocks <br>
-UCSD 64 Rocks <br>
+grep -A 1 Revelle ucsd.txt 
+UCSD Revelle Rocks 
+UCSD 64 Rocks 
 ```
 
 ### [Source](https://docs.rackspace.com/docs/use-the-linux-grep-command)
