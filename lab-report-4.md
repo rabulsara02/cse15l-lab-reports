@@ -36,8 +36,9 @@
 
 ### Task 7: Edit the code file to fix the failing test
 
-<p> In the vim editor, see picture below, I used the arrow keys to get the the particular location of the error. <br> 
-  Once I got to that point I clicked "i" and then changed the "index1" to "index2" then clicked <<escape>> </p>
+<p> In the vim editor, see picture below, I used the arrow keys to get the the particular location of the error. </p>
+
+<p> Once I got to that point I clicked "i" and then changed the "index1" to "index2" then clicked "escape" </p>
 
 <br>
 
