@@ -37,8 +37,7 @@
 ### Task 7: Edit the code file to fix the failing test
 
 <p> In the vim editor, see picture below, I used the arrow keys to get the the particular location of the error. <br> 
-  Once I got to that point I clicked "i" and then changed the "index1" to "index2" then clicked <<escape>>
-</p>
+  Once I got to that point I clicked "i" and then changed the "index1" to "index2" then clicked <<escape>> </p>
 
 <br>
 
@@ -58,10 +57,15 @@
 
 <br>
 
+
 ``` git commit```
+
 
 <p> Then in the vim editor I added the message "Fixed problem in examples"</p>
 
 <br>
 
+
 ![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393260682649682/Screenshot_2024-02-22_at_4.49.33_PM.png?ex=65ea6591&is=65d7f091&hm=127ad7a963ed553c7eb7b3c46f9596ed80d65e46f7026cfdaffd228f2c73a0cf&)
+
+
