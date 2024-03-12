@@ -9,7 +9,9 @@
 
 <br>
 
-![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393111159635998/Screenshot_2024-02-22_at_4.46.13_PM.png?ex=65ea656d&is=65d7f06d&hm=b2432a9550208bf3bc5417715a72788207a6c6a4b02f75a613e8212213d937eb&)
+
+![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393111159635998/Screenshot_2024-02-22_at_4.46.13_PM.png?ex=65fcda6d&is=65ea656d&hm=44a5a6814def88f2c44e7ee2063561c74406350708219fbb0e406aea7dd39f48&)
+
 
 <br>
 
@@ -24,7 +26,8 @@
 
 <br>
 
-![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393164137898014/Screenshot_2024-02-22_at_4.47.35_PM.png?ex=65ea657a&is=65d7f07a&hm=2c568d97df486b3db5df2abe12678e98e8e4295b04c39f8b711fa4075cc6c9aa&)
+
+![Image](https://media.discordapp.net/attachments/1002359753957199903/1210393164137898014/Screenshot_2024-02-22_at_4.47.35_PM.png?ex=65fcda7a&is=65ea657a&hm=85fa4df05d99ddb39499a7978d0e6a298cb7cc1a018494ec95976262261fb7bf&=&format=webp&quality=lossless&width=1920&height=388)
 
 <br>
 
@@ -37,7 +40,8 @@ There are test cases wtihin a file called "test.sh" which compile and run the ma
 
 <br>
 
-![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393183557525525/Screenshot_2024-02-22_at_4.48.02_PM.png?ex=65ea657e&is=65d7f07e&hm=926910aa5824045809dc38cb36a31f379fbcf3627913a671231aae648e59d2cb&)
+![Image](https://media.discordapp.net/attachments/1002359753957199903/1210393183557525525/Screenshot_2024-02-22_at_4.48.02_PM.png?ex=65fcda7e&is=65ea657e&hm=4a6ce617c06e5d04002bd50b4adb9f3351a7b955605272e6311f2231beb1d807&=&format=webp&quality=lossless&width=1920&height=716)
+
 
 <br>
 
@@ -49,7 +53,7 @@ There are test cases wtihin a file called "test.sh" which compile and run the ma
 
 <br>
 
-![Image](INSERT)
+
 
 <br>
 
@@ -57,7 +61,7 @@ There are test cases wtihin a file called "test.sh" which compile and run the ma
 
 <br>
 
-![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393232354181220/Screenshot_2024-02-22_at_4.48.54_PM.png?ex=65ea658a&is=65d7f08a&hm=f431ee9206bd4bad7a51c493e93acb7302cf6ca37e508694cc4b24521f3636e3&)
+![Image](https://media.discordapp.net/attachments/1002359753957199903/1210393232354181220/Screenshot_2024-02-22_at_4.48.54_PM.png?ex=65fcda8a&is=65ea658a&hm=10318c196c173e92c1f80aad596b2a63051f58aee290e6a171f473efda730e3f&=&format=webp&quality=lossless&width=1656&height=596)
 
 <br>
 
