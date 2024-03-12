@@ -18,7 +18,7 @@
 
 ### Task 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
-<p>To clone the repo from my github account, I first had to get the ssh url which was "git@github.com:rabulsara02/lab7.git". Then, once in my ieng6 space I used the command below and then hit <enter> which cloned the repository into my ieng6 workspace</p>
+<p>To clone the repo from my github account, I first had to get the ssh url which was "git@github.com:rabulsara02/lab7.git". Then, once in my ieng6 space I used the command below and then hit "enter" which cloned the repository into my ieng6 workspace</p>
 
 ``` git clone git@github.com:rabulsara02/lab7.git ```
 
