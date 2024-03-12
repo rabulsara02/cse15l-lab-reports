@@ -5,7 +5,7 @@
 
 <br>
 
-``` ssh rbulsara@ieng6@ucsd.edu ```
+``` ssh rbulsara@ieng6-201.ucsd.edu ```
 
 <br>
 
@@ -16,7 +16,11 @@
 
 ### Task 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
+<p>To clone the repo from my github account, I first had to get the ssh url which was "git@github.com:rabulsara02/lab7.git". Then, once in my ieng6 space I used the command below and then hit <enter> which cloned the repository into my ieng6 workspace</p>
+
 ``` git clone git@github.com:rabulsara02/lab7.git ```
+
+<p> I then used "cd" to get into the repo and "ls" to make sure all of the necessary files were indeed cloned.</p>
 
 <br>
 
@@ -28,6 +32,9 @@
 
 ``` bash test.sh```
 
+There are test cases wtihin a file called "test.sh" which compile and run the main program. And as seen in the image below, there are failures in the test cases.
+
+
 <br>
 
 ![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393183557525525/Screenshot_2024-02-22_at_4.48.02_PM.png?ex=65ea657e&is=65d7f07e&hm=926910aa5824045809dc38cb36a31f379fbcf3627913a671231aae648e59d2cb&)
@@ -36,13 +43,13 @@
 
 ### Task 7: Edit the code file to fix the failing test
 
-<p> In the vim editor, see picture below, I used the arrow keys to get the the particular location of the error. </p>
+<p> In the vim editor, I used the command ":['linenumber with bug']>" to get to the right line number with the bug and then "right""right""right" arrow keys combine with "down""down" to get the the particular location of the error. </p> 
 
-<p> Once I got to that point I clicked "i" and then changed the "index1" to "index2" then clicked "escape" </p>
+<p> Once I got to that point I clicked "i" and then changed the bug that was "index1" to "index2" then clicked "escape" </p>
 
 <br>
 
-![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1210393183557525525/Screenshot_2024-02-22_at_4.48.02_PM.png?ex=65ea657e&is=65d7f07e&hm=926910aa5824045809dc38cb36a31f379fbcf3627913a671231aae648e59d2cb&)
+![Image](INSERT)
 
 <br>
 
@@ -58,11 +65,15 @@
 
 <br>
 
+First I used the git add command for ListExamples.java
+
+<p> Then I used the git commit command, shown below and hit "enter"</p>
 
 ``` git commit```
 
 
-<p> Then in the vim editor I added the message "Fixed problem in examples"</p>
+
+<p> Then in the vim editor for the commit I first clicked on "i" and then added the message "Fixed problem in examples". And then hit "escape" and then ":wq" to write and quit and commit</p>
 
 <br>
 
