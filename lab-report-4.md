@@ -1,7 +1,7 @@
 # Lab Report 4
 
 ### Task 4: Log into ieng6
-<p> Simply logged into ieng6 using given command from previous labs. </p>
+<p> I logged into ieng6 using given command from previous labs. </p>
 
 <br>
 
@@ -29,13 +29,14 @@
 
 ![Image](https://media.discordapp.net/attachments/1002359753957199903/1210393164137898014/Screenshot_2024-02-22_at_4.47.35_PM.png?ex=65fcda7a&is=65ea657a&hm=85fa4df05d99ddb39499a7978d0e6a298cb7cc1a018494ec95976262261fb7bf&=&format=webp&quality=lossless&width=1920&height=388)
 
+
 <br>
 
 ### Task 6: Run the tests, demonstrating that they fail
 
 ``` bash test.sh```
 
-There are test cases wtihin a file called "test.sh" which compile and run the main program. And as seen in the image below, there are failures in the test cases.
+<p>There are test cases wtihin a file called "test.sh" which compile and run the main program. And as seen in the image below, there are failures in the test cases.</p>
 
 
 <br>
