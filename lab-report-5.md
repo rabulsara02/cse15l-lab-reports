@@ -4,7 +4,7 @@
 
 ### Student Question
 
-<p>  I am currently trying to find a .java with the most lines in a directory. I know that the wc command lets me do that, but I am getting an output for each file. <br>
+<p>  I am currently trying to find a .java with the most lines in a directory that is full of .java files.  I know that the wc command lets me do that, but I am getting an output for each file. <br>
   I am getting only one line that looks like this.  
   I have included my command below as well.
 </p>
