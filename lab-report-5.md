@@ -56,3 +56,8 @@
 
 ![Image](https://cdn.discordapp.com/attachments/1002359753957199903/1217287497550139462/Screenshot_2024-03-12_at_6.45.50_PM.png?ex=66037a53&is=65f10553&hm=e6b8f58f37b3c50309e28552dfea3abea06f9cd540138fbb89a6331a6e818ac7&)
 
+
+# Reflection
+
+<p> One thing that I learned in the second half of this quarter is what scripting actually is. I had heard the term used here and there but never actually understood what it is and how it can be used. I think that scripting is a crucial topic that everyone should learn because it may prove to be very useful in helping reduce the amount of work or code to be written by having a script that can run mostly everything all in one file. Also the fact that you can put all of your test cases that need to be run into a script is so much more efficient than manually running them or having them in your java code. Overall, scripting was a very intuitive and interesting topic.</p>
+
